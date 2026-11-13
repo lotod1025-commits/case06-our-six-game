@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#12171a">
+  <title>잔향의 밤 | 클릭형 추리 사건</title>
+  <link rel="stylesheet" href="style.css">
+<style>.case-collection-nav{display:flex;justify-content:flex-end;padding:7px 16px;background:#10191c;border-bottom:1px solid #3b5559;font:600 12px "Malgun Gothic",system-ui,sans-serif}.case-collection-nav a{color:#e4c18b;text-decoration:none;border:1px solid #746147;border-radius:7px;padding:6px 10px}.case-collection-nav a:hover,.case-collection-nav a:focus-visible{background:#344044;color:#fff}</style></head>
+<body><div class="case-collection-nav"><a href="../cases.html">← 다른 사건 보기</a></div>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark">✦</span><div><small>INTERACTIVE MYSTERY / CASE 01</small><strong>잔향의 밤</strong></div></div>
+      <div class="top-actions"><span id="progress">수사 기록 0 / 0</span><button id="reset" class="text-btn">처음부터</button></div>
+    </header>
+    <main class="layout">
+      <aside class="sidebar">
+        <div class="side-label">수사 메뉴</div>
+        <button class="nav active" data-view="brief"><span>◈</span> 사건 개요</button>
+        <button class="nav" data-view="scene"><span>⌖</span> 현장 수색</button>
+        <button class="nav" data-view="people"><span>♟</span> 용의자 심문</button>
+        <button class="nav" data-view="records"><span>▤</span> CCTV · 기록</button>
+        <button class="nav" data-view="evidence"><span>▣</span> 증거함 <i id="evidence-count">0</i></button>
+        <button class="nav" data-view="deduce"><span>◇</span> 추리 보드</button>
+        <button class="nav final-nav" data-view="accuse"><span>◎</span> 최종 지목</button>
+        <div class="side-foot">증거를 찾으면 새로운 질문과 기록이 열립니다. 정답은 최종 지목 전까지 표시되지 않습니다.</div>
+      </aside>
+      <section id="content" class="content" aria-live="polite"></section>
+      <aside class="notebook"><div class="notebook-head"><small>DETECTIVE'S NOTEBOOK</small><h2>수사 메모</h2></div><div id="note-content"></div></aside>
+    </main>
+  </div>
+  <div id="toast" role="status"></div>
+  <script src="data.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>

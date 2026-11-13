@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#10191c">
+  <meta name="description" content="직접 현장을 수색하고 심문하며 사건을 해결하는 인터랙티브 추리 게임 모음.">
+  <title>사건 선택 | 인터랙티브 추리 게임</title>
+  <style>
+    :root{color-scheme:dark;font-family:"Malgun Gothic","Apple SD Gothic Neo",system-ui,sans-serif;color:#f1eee8;background:#0d1519}
+    *{box-sizing:border-box}body{margin:0;min-height:100vh;background:radial-gradient(circle at 75% -20%,#314247 0,transparent 45%),#0d1519}
+    header,main,footer{width:min(1180px,calc(100% - 36px));margin:auto}
+    header{padding:34px 0 22px;border-bottom:1px solid #42565a}header small{display:block;color:#d8b77f;letter-spacing:.2em;font-size:11px;font-weight:700}h1{font-family:Georgia,"Malgun Gothic",serif;font-size:clamp(30px,5vw,52px);margin:10px 0}header p{color:#bdc9c8;line-height:1.6;margin:0}
+    main{padding:28px 0 60px}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+    .case{min-height:340px;position:relative;overflow:hidden;border:1px solid #52686b;border-radius:16px;display:flex;align-items:end;text-decoration:none;color:inherit;isolation:isolate;transition:transform .2s,border-color .2s;background:#1b2b30}
+    .case:hover,.case:focus-visible{transform:translateY(-4px);border-color:#e2be85;outline:none}.art{position:absolute;inset:0;z-index:-2;background-image:var(--art);background-position:var(--position,center);background-size:var(--size,cover);background-repeat:no-repeat;transition:transform .3s}.case:hover .art{transform:scale(1.04)}.case:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,#071012f5 0%,#0a151bb3 45%,#0710120c 100%)}
+    .copy{padding:28px}.tag{color:#e4bf81;font-size:11px;letter-spacing:.16em;font-weight:700}.copy h2{font-size:clamp(24px,3vw,33px);margin:8px 0}.copy p{margin:0 0 18px;color:#d1dad7;line-height:1.65;font-size:14px}.play{display:inline-block;background:#dfbd88;color:#172124;padding:10px 16px;border-radius:8px;font-weight:800;font-size:13px}
+    footer{padding:0 0 32px;color:#9fb2b2;font-size:12px;line-height:1.7}
+    @media(max-width:700px){.grid{grid-template-columns:1fr}.case{min-height:300px}.copy{padding:22px}header{padding-top:26px}}
+  </style>
+</head>
+<body>
+  <header><small>INTERACTIVE MYSTERY · CASE FILES</small><h1>사건을 선택하세요</h1><p>네 개의 독립된 사건. 장소를 조사하고, 증거를 모으고, 용의자를 심문해 진실을 밝혀보세요.</p></header>
+  <main><div class="grid">
+    <a class="case" href="hyang-night/index.html"><span class="art" style="--art:url('hyang-night/assets/scenes.png');--size:200% 200%;--position:0 0"></span><span class="copy"><span class="tag">CASE 01</span><h2>잔향의 밤</h2><p>향기 뒤에 숨은 사건의 단서를 따라가세요.</p><span class="play">수사 시작 →</span></span></a>
+    <a class="case" href="last-curtain/index.html"><span class="art" style="--art:url('last-curtain/assets/scenes.png');--size:200% 200%;--position:100% 0"></span><span class="copy"><span class="tag">CASE 02</span><h2>막이 내리기 전</h2><p>극장의 마지막 밤, 무대와 사람들의 진술을 대조하세요.</p><span class="play">수사 시작 →</span></span></a>
+    <a class="case" href="last-shutter/index.html"><span class="art" style="--art:url('last-shutter/assets/intro-studio.png')"></span><span class="copy"><span class="tag">CASE 05</span><h2>마지막 셔터</h2><p>사진관에서 발견된 시신. 사진 속에 남은 진실을 찾으세요.</p><span class="play">수사 시작 →</span></span></a>
+    <a class="case" href="./"><span class="art" style="--art:url('assets/intro-01.webp')"></span><span class="copy"><span class="tag">CASE 06</span><h2>그날, 우리 여섯 명</h2><p>오랜 친구들의 재회가 끝난 뒤 벌어진 사건을 추적하세요.</p><span class="play">수사 시작 →</span></span></a>
+  </div></main>
+  <footer>각 사건의 진행 상황은 플레이한 브라우저에 따로 저장됩니다. 게임 안의 ‘처음부터’ 버튼으로 다시 시작할 수 있습니다.</footer>
+</body>
+</html>
