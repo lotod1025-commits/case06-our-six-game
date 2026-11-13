@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-label="익명 게시글 출력본">
+  <defs>
+    <linearGradient id="desk" x2="1" y2="1"><stop stop-color="#3a2a20"/><stop offset="1" stop-color="#17151a"/></linearGradient>
+    <linearGradient id="paper" x2=".2" y2="1"><stop stop-color="#e9dec9"/><stop offset="1" stop-color="#c9b89c"/></linearGradient>
+    <filter id="shadow"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+  <rect width="640" height="640" fill="url(#desk)"/>
+  <rect x="89" y="51" width="472" height="544" rx="3" fill="#000" opacity=".4" filter="url(#shadow)"/>
+  <path d="M87 53 L562 48 562 579 89 586Z" fill="url(#paper)" stroke="#b19b78" stroke-width="3"/>
+  <rect x="123" y="91" width="404" height="39" fill="#30414a"/>
+  <text x="145" y="119" font-size="20" font-family="Malgun Gothic,Apple SD Gothic Neo,sans-serif" font-weight="700" fill="#e9e7db">익명 게시판 · 출력본</text>
+  <text x="125" y="183" font-size="29" font-family="Malgun Gothic,Apple SD Gothic Neo,sans-serif" font-weight="700" fill="#3b3530">축제 기부금 도난 의혹</text>
+  <text x="126" y="224" font-size="17" font-family="Malgun Gothic,Apple SD Gothic Neo,sans-serif" fill="#55514a">작성자</text><rect x="194" y="208" width="143" height="19" fill="#202020"/>
+  <path d="M124 244 H520" stroke="#aaa18e"/>
+  <g fill="#77766e" opacity=".63"><rect x="124" y="284" width="385" height="9" rx="4"/><rect x="124" y="314" width="348" height="9" rx="4"/><rect x="124" y="344" width="397" height="9" rx="4"/><rect x="124" y="374" width="308" height="9" rx="4"/><rect x="124" y="424" width="372" height="9" rx="4"/><rect x="124" y="454" width="334" height="9" rx="4"/><rect x="124" y="484" width="395" height="9" rx="4"/></g>
+</svg>

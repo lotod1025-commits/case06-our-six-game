@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" role="img" aria-label="다섯 이름의 메모">
+  <defs>
+    <linearGradient id="desk" x2="1" y2="1"><stop stop-color="#35251d"/><stop offset="1" stop-color="#120f11"/></linearGradient>
+    <linearGradient id="paper" x2=".1" y2="1"><stop stop-color="#e8d6b7"/><stop offset="1" stop-color="#c8ae83"/></linearGradient>
+    <filter id="shadow"><feGaussianBlur stdDeviation="16"/></filter>
+  </defs>
+  <rect width="640" height="640" fill="url(#desk)"/>
+  <path d="M87 77 L566 58 584 567 97 586Z" fill="#000" opacity=".45" filter="url(#shadow)"/>
+  <path d="M87 77 L566 58 584 567 97 586Z" fill="url(#paper)" stroke="#aa8d65" stroke-width="3"/>
+  <path d="M102 92 L551 75M105 574 L575 554" stroke="#f5e7cb" opacity=".45" stroke-width="3"/>
+  <text x="135" y="151" font-size="33" font-family="Malgun Gothic,Apple SD Gothic Neo,sans-serif" font-weight="700" fill="#45352b">오늘 이야기할 사람들</text>
+  <path d="M133 172 Q321 168 512 164" stroke="#76604c" stroke-width="2"/>
+  <g font-family="Malgun Gothic,Apple SD Gothic Neo,sans-serif" font-size="29" fill="#46362c">
+    <text x="139" y="235">한지아</text><text x="369" y="235">돈</text>
+    <text x="139" y="299">강태준</text><text x="369" y="299">결혼</text>
+    <text x="139" y="363">오민서</text><text x="369" y="363">사진</text>
+    <text x="139" y="427">박시우</text><text x="369" y="427">글</text>
+    <text x="139" y="491">정수빈</text><text x="369" y="491">사과</text>
+  </g>
+  <g stroke="#9f8968" stroke-width="1" opacity=".55"><path d="M132 247 H523M132 311 H523M132 375 H523M132 439 H523M132 503 H523"/></g>
+</svg>
